@@ -1,0 +1,104 @@
+{
+  "amenities": [
+    {
+      "id": "5",
+      "label": "Ar-condicionado"
+    },
+    {
+      "id": "58",
+      "label": "TV"
+    },
+    {
+      "id": "7",
+      "label": "Piscina"
+    },
+    {
+      "id": "8",
+      "label": "Cozinha"
+    },
+    {
+      "id": "kg_and_tags-Tag:789",
+      "label": "Em frente ao mar"
+    },
+    {
+      "id": "34",
+      "label": "Secadora"
+    },
+    {
+      "id": "4",
+      "label": "Wi-Fi"
+    },
+    {
+      "id": "33",
+      "label": "Máquina de Lavar"
+    },
+    {
+      "id": "30",
+      "label": "Aquecimento"
+    },
+    {
+      "id": "47",
+      "label": "Espaço de trabalho exclusivo"
+    },
+    {
+      "id": "45",
+      "label": "Secador de cabelo"
+    },
+    {
+      "id": "46",
+      "label": "Ferro de passar"
+    },
+    {
+      "id": "25",
+      "label": "Jacuzzi"
+    },
+    {
+      "id": "9",
+      "label": "Estacionamento gratuito"
+    },
+    {
+      "id": "97",
+      "label": "Carregador de veículos elétricos"
+    },
+    {
+      "id": "286",
+      "label": "Berço"
+    },
+    {
+      "id": "1000",
+      "label": "Cama king"
+    },
+    {
+      "id": "15",
+      "label": "Academia"
+    },
+    {
+      "id": "99",
+      "label": "Churrasqueira"
+    },
+    {
+      "id": "16",
+      "label": "Café da Manhã"
+    },
+    {
+      "id": "27",
+      "label": "Lareira interna"
+    },
+    {
+      "id": "11",
+      "label": "Permitido fumar"
+    },
+    {
+      "id": "kg_and_tags-Tag:686",
+      "label": "Beira-mar"
+    },
+    {
+      "id": "35",
+      "label": "Detector de fumaça"
+    },
+    {
+      "id": "36",
+      "label": "Alarme de monóxido de carbono"
+    }
+  ]
+}
