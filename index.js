@@ -45,7 +45,7 @@ async function main() {
 
             const pageScrapePromises = [];
             for (let pageNum = 0; pageNum < 2; pageNum++) {
-                console.log(`Scraping data for Check-in: ${checkinStr}, Check-out: ${checkoutStr}, Page: ${pageNum}`);
+                console.log(`Scraping data for : ${checkinStr} / ${checkoutStr}, Page: ${pageNum}`);
                 const scrapePayload = {
                     page: pageNum,
                     airbnbUrl: airbnbUrlWithDates
@@ -77,6 +77,7 @@ async function main() {
                         room: item.room_id,
                         price: item.price,
                         position: item.position,
+                        avaliables: item.avaliables,
                         checkin: checkinStr,
                         checkout: checkoutStr,
                         scrap_url: airbnbUrlWithDates
@@ -86,7 +87,7 @@ async function main() {
                         const { error: insertError } = await supabase
                             .from("history")
                             .insert(historyRecordsToInsert);
-
+                        console.log('Inserindo dados do histórico para página', i, 'com', historyRecordsToInsert.length, 'registros.');
                         if (insertError) {
                             console.error(`Erro ao inserir dados do histórico para página ${i}:`, insertError.message);
                         }
