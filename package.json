@@ -4,7 +4,10 @@
   "description": "API para obter anúncios do Airbnb via web scraping.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker:build": "docker build -t mehfius/scrapebnb-jobs --no-cache .",
+    "docker:push": "docker push mehfius/scrapebnb-jobs",
+    "docker:release": "npm run docker:build && npm run docker:push"       
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
